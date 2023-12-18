@@ -14,8 +14,7 @@ export default ({
     //社交链接
     socialLinks: [ 
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }, 
-    ]
-    },
+    ],
     // --------------------------------------------------------------------
     //---导航栏开始---
     nav: [
@@ -67,6 +66,7 @@ export default ({
           }
         }
       }
-    },
-  }//---主题配置---
+    }
+  },//---主题配置---
+}
 )
