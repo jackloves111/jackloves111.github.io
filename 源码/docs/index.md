@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 快速部署
-      link: /markdown-examples
+      link: /快速部署/
     - theme: alt
       text: 关于软件
       link: /软件介绍/

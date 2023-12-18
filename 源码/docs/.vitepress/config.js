@@ -13,7 +13,7 @@ export default ({
       },
     //社交链接
     socialLinks: [ 
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }, 
+      { icon: 'github', link: 'https://github.com/hslr-s/sun-panel' }, 
     ],
     // --------------------------------------------------------------------
     //---导航栏开始---
