@@ -30,3 +30,9 @@ npm run docs:build
 2. 将`/源码/docs/.vitepress/dist/`内新的文件替换掉`/docs/`内的文件
 
 - 所有变更的后的文件重新上传到github
+
+## 本地化预览
+
+```bash
+npm run docs:dev
+```
