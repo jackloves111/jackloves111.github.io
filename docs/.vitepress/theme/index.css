@@ -1,0 +1,15 @@
+:root {
+    /* 公告栏根样式 */
+    --width-zt: 258px;/* 公告总宽度 */
+    --width-bo: 80px;/* 公告离地高度 */
+    --height-close: 40px;/* 显示按钮的高度,宽度 */
+}
+
+/* medium-zoom图片缩放组件样式 */
+.medium-zoom-overlay {
+  z-index: 20;
+}
+
+.medium-zoom-image {
+  z-index: 9999 !important;/* 给的值是21，但是实测盖不住，直接999 */
+}
