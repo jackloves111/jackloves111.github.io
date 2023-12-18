@@ -6,24 +6,17 @@ import mediumZoom from 'medium-zoom';
 import { onMounted, watch, nextTick } from 'vue';
 import { useRoute } from 'vitepress';
 
-import { h } from 'vue';
-import noticeBoard from './noticeBoard.vue';
-
-// 引入时间线样式
-import "vitepress-markdown-timeline/dist/theme/index.css";
+// import { h } from 'vue';
+// import noticeBoard from './noticeBoard.vue';
 
 export default {
   ...DefaultTheme,
-  // 时间线
-  enhanceApp(ctx) {
-    DefaultTheme.enhanceApp(ctx);
-  },
   // 自定义组件
-  Layout() {
-    return h(DefaultTheme.Layout, null, {
-      'layout-top': () => h(noticeBoard)
-    })
-  },
+  // Layout() {
+  //   return h(DefaultTheme.Layout, null, {
+  //     'layout-top': () => h(noticeBoard)
+  //   })
+  // },
   // 图片缩放
   setup() {
     const route = useRoute();
