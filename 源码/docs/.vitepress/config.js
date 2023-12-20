@@ -16,8 +16,8 @@ const { nav, sidebar } = AutoConfigureNavSidebarPlugin({
 
 export default ({
   base: '/',
-  title: "文档",
-  description: "文档",
+  title: "Sun-Panel",
+  description: "Sun-Panel文档",
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
 //---主题配置---
   themeConfig: {
