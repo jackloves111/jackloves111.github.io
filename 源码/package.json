@@ -10,7 +10,6 @@
     "vitepress": "^1.0.0-rc.32"
   },
   "dependencies": {
-    "@w3ctech-editorial-department/vitepress-auto-configure-nav-sidebar": "^1.0.0",
-    "vitepress-auto-navigation": "^0.0.4"
+    "@w3ctech-editorial-department/vitepress-auto-configure-nav-sidebar": "^1.0.0"
   }
 }

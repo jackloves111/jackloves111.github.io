@@ -7,9 +7,9 @@ const { nav, sidebar } = AutoConfigureNavSidebarPlugin({
   isCollapse: false,              //sidebar是否可折叠
   showNavIcon: false,             //显示 nav 修饰
   singleLayerNav: true,           //是否设置单层 nav
-  showSidebarIcon: true,          //显示 sidebar 修饰
+  showSidebarIcon: false,          //显示 sidebar 修饰
   filePrefix: '✏️',              //文件前缀修饰，有助于区分
-  dirPrefix: '📂',               //目录前缀修饰，有助于区分
+  dirPrefix: '',               //目录前缀修饰，有助于区分
   ignoreFolders: ['.vitepress','public'],   //需要排除的一些目录
   ignoreFiles: [''],              //需要排除的一些文件
 })
